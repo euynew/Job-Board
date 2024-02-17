@@ -1,0 +1,21 @@
+current directory: /Users/raymond.li/Desktop/projects/job-ruby/gems/byebug-11.1.3/ext/byebug
+/Users/raymond.li/.rbenv/versions/2.7.8/bin/ruby -I /Users/raymond.li/.rbenv/versions/2.7.8/lib/ruby/2.7.0 -r ./siteconf20231229-26629-1n0f5tl.rb extconf.rb
+creating Makefile
+
+current directory: /Users/raymond.li/Desktop/projects/job-ruby/gems/byebug-11.1.3/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/raymond.li/Desktop/projects/job-ruby/gems/byebug-11.1.3/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+ld: warning: -multiply_defined is obsolete
+ld: warning: ignoring duplicate libraries: '-lruby.2.7'
+
+current directory: /Users/raymond.li/Desktop/projects/job-ruby/gems/byebug-11.1.3/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.bundle ./.gem.20231229-26629-oup4bg/byebug

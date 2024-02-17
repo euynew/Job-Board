@@ -1,0 +1,17 @@
+current directory: /Users/raymond.li/Desktop/projects/job-ruby/gems/bootsnap-1.17.0/ext/bootsnap
+/Users/raymond.li/.rbenv/versions/2.7.8/bin/ruby -I /Users/raymond.li/.rbenv/versions/2.7.8/lib/ruby/2.7.0 -r ./siteconf20231229-26629-wgc4tg.rb extconf.rb
+creating Makefile
+
+current directory: /Users/raymond.li/Desktop/projects/job-ruby/gems/bootsnap-1.17.0/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/raymond.li/Desktop/projects/job-ruby/gems/bootsnap-1.17.0/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+ld: warning: -multiply_defined is obsolete
+ld: warning: ignoring duplicate libraries: '-lruby.2.7'
+
+current directory: /Users/raymond.li/Desktop/projects/job-ruby/gems/bootsnap-1.17.0/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20231229-26629-6e33a1/bootsnap
